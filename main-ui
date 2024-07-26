@@ -1,0 +1,197 @@
+-- put together in under an hour
+-- made by armhf
+-- bro catching me use gui to lua
+-- im not obfuscating this bad of a script
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local title = Instance.new("Frame")
+local titletextskid = Instance.new("TextLabel")
+local tonka = Instance.new("TextButton")
+local jose = Instance.new("TextButton")
+local smoothcam = Instance.new("TextButton")
+local FPSGUI = Instance.new("TextButton")
+local ping = Instance.new("TextLabel")
+local credit = Instance.new("TextLabel")
+local credit2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.131789133, 0, 0.497493744, 0)
+main.Size = UDim2.new(0, 150, 0, 250)
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 150, 0, 25)
+
+titletextskid.Name = "titletextskid"
+titletextskid.Parent = title
+titletextskid.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+titletextskid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+titletextskid.BorderSizePixel = 0
+titletextskid.Size = UDim2.new(0, 150, 0, 25)
+titletextskid.Font = Enum.Font.Arcade
+titletextskid.Text = "DHAT Semi-Blatant"
+titletextskid.TextColor3 = Color3.fromRGB(6, 255, 6)
+titletextskid.TextSize = 14.000
+
+tonka.Name = "tonka"
+tonka.Parent = main
+tonka.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+tonka.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tonka.BorderSizePixel = 0
+tonka.Position = UDim2.new(0.159999996, 0, 0.200000003, 0)
+tonka.Size = UDim2.new(0, 100, 0, 25)
+tonka.Font = Enum.Font.Unknown
+tonka.Text = "tonka.cc"
+tonka.TextColor3 = Color3.fromRGB(0, 0, 0)
+tonka.TextSize = 14.000
+tonka.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NuraadGit/skidded-repo-roblox/main/tonka-config"))()
+end)
+
+jose.Name = "jose"
+jose.Parent = main
+jose.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+jose.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jose.BorderSizePixel = 0
+jose.Position = UDim2.new(0.166666672, 0, 0.340000004, 0)
+jose.Size = UDim2.new(0, 100, 0, 25)
+jose.Font = Enum.Font.Unknown
+jose.Text = "Jose Silent"
+jose.TextColor3 = Color3.fromRGB(0, 0, 0)
+jose.TextSize = 14.000
+jose.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NuraadGit/skidded-repo-roblox/main/jose-main"))()
+end)
+
+smoothcam.Name = "smoothcam"
+smoothcam.Parent = main
+smoothcam.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+smoothcam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+smoothcam.BorderSizePixel = 0
+smoothcam.Position = UDim2.new(0.164824322, 0, 0.478045166, 0)
+smoothcam.Size = UDim2.new(0, 100, 0, 25)
+smoothcam.Font = Enum.Font.Unknown
+smoothcam.Text = "Smooth Cam"
+smoothcam.TextColor3 = Color3.fromRGB(0, 0, 0)
+smoothcam.TextSize = 14.000
+smoothcam.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NuraadGit/skidded-repo-roblox/main/silent-cam1"))()
+end)
+
+FPSGUI.Name = "FPSGUI"
+FPSGUI.Parent = main
+FPSGUI.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FPSGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FPSGUI.BorderSizePixel = 0
+FPSGUI.Position = UDim2.new(0.164824322, 0, 0.618045151, 0)
+FPSGUI.Size = UDim2.new(0, 100, 0, 25)
+FPSGUI.Font = Enum.Font.Unknown
+FPSGUI.Text = "FPS GUI"
+FPSGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+FPSGUI.TextSize = 14.000
+FPSGUI.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NuraadGit/skidded-repo-roblox/main/fpsgui"))()
+end)
+
+ping.Name = "ping"
+ping.Parent = main
+ping.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ping.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ping.BorderSizePixel = 0
+ping.Position = UDim2.new(-0.00154418941, 0, 0.715588868, 0)
+ping.Size = UDim2.new(0, 150, 0, 30)
+ping.Font = Enum.Font.Unknown
+ping.Text = "This is very ping based"
+ping.TextColor3 = Color3.fromRGB(255, 255, 255)
+ping.TextSize = 14.000
+
+credit.Name = "credit"
+credit.Parent = main
+credit.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+credit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credit.BorderSizePixel = 0
+credit.Position = UDim2.new(-0.00154418941, 0, 0.871588886, 0)
+credit.Size = UDim2.new(0, 150, 0, 16)
+credit.Font = Enum.Font.Unknown
+credit.Text = "skidded by armhf"
+credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+credit.TextSize = 14.000
+
+credit2.Name = "credit2"
+credit2.Parent = main
+credit2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+credit2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credit2.BorderSizePixel = 0
+credit2.Position = UDim2.new(-0.00154418941, 0, 0.935588896, 0)
+credit2.Size = UDim2.new(0, 150, 0, 16)
+credit2.Font = Enum.Font.Unknown
+credit2.Text = "in under 15 min"
+credit2.TextColor3 = Color3.fromRGB(255, 255, 255)
+credit2.TextSize = 14.000
+
+-- Scripts:
+
+local function PAYTQG_fake_script() -- main.drag 
+	local script = Instance.new('LocalScript', main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragToggle
+	local dragInput
+	local dragSpeed
+	local dragStart
+	local dragPos
+	local startPos
+	
+	function dragify(Frame)
+		dragToggle = nil
+		dragSpeed = 0.50
+		dragInput = nil
+		dragStart = nil
+		dragPos = nil
+		local function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UserInputService:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(PAYTQG_fake_script)()
