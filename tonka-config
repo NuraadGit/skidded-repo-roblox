@@ -23,4 +23,4 @@ getgenv().Tonka = {
         }
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NuraadGit/skidded-repo-roblox/main/tonka-main.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NuraadGit/skidded-repo-roblox/main/tonka-main"))()
